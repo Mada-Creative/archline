@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./Skills.css";
-import InteriorModelViewer from "./InteriorModelViewer";
-import BuildingModel1 from "./Building1";
-import BuildingInterior from "./BuildingInterior";
 
 export default function Services() {
   const [showMore, setShowMore] = useState(false);
@@ -40,9 +37,7 @@ export default function Services() {
             className="skill-visual left"
             data-aos="fade-right"
           >
-            <div className="model-container">
-              <BuildingModel1 />
-            </div>
+            <div className="model-container"></div>
           </div>
         </div>
 
@@ -54,43 +49,39 @@ export default function Services() {
               ולסגנון שלך.
             </p>
           </div>
-          <div className="model-container" data-aos="fade-right">
-            <BuildingInterior />
-          </div>
+          <div className="model-container" data-aos="fade-right"></div>
         </div>
-
       </section>
     </div>
   );
 }
 
+// <div className="extra-skills">
+//   <div className="skill-row reverse">
+//     <div className="skill-visual right" data-aos="fade-left">
+//       {/* <Lottie
+//       animationData={revitAnim}
+//       style={{ width: 200, height: 200 }}
+//     /> */}
+//     </div>
+//     <div className="skill-text left" data-aos="fade-right">
+//       <h3>הכנת תוכניות עבודה ב-Revit</h3>
+//       <p>
+//         הכנת תוכניות אדריכליות מקצועיות ומדויקות באמצעות Revit – מוכנות
+//         להגשה לרשויות ולקבלנים.
+//       </p>
+//     </div>
+//   </div>
 
-        // <div className="extra-skills">
-        //   <div className="skill-row reverse">
-        //     <div className="skill-visual right" data-aos="fade-left">
-        //       {/* <Lottie
-        //       animationData={revitAnim}
-        //       style={{ width: 200, height: 200 }}
-        //     /> */}
-        //     </div>
-        //     <div className="skill-text left" data-aos="fade-right">
-        //       <h3>הכנת תוכניות עבודה ב-Revit</h3>
-        //       <p>
-        //         הכנת תוכניות אדריכליות מקצועיות ומדויקות באמצעות Revit – מוכנות
-        //         להגשה לרשויות ולקבלנים.
-        //       </p>
-        //     </div>
-        //   </div>
-
-        //   <div className="skill-row reverse">
-        //     <div className="skill-visual right" data-aos="fade-left">
-        //       <span style={{ fontSize: "3rem" }}>📐</span>
-        //     </div>
-        //     <div className="skill-text left" data-aos="fade-right">
-        //       <h3>ליווי והגשה לרשויות</h3>
-        //       <p>
-        //         טיפול בכל שלבי ההגשה לרשויות המקומיות – כולל תיאומים ואישורים.
-        //       </p>
-        //     </div>
-        //   </div>
-        // </div>
+//   <div className="skill-row reverse">
+//     <div className="skill-visual right" data-aos="fade-left">
+//       <span style={{ fontSize: "3rem" }}>📐</span>
+//     </div>
+//     <div className="skill-text left" data-aos="fade-right">
+//       <h3>ליווי והגשה לרשויות</h3>
+//       <p>
+//         טיפול בכל שלבי ההגשה לרשויות המקומיות – כולל תיאומים ואישורים.
+//       </p>
+//     </div>
+//   </div>
+// </div>
