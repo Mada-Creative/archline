@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/archline/static/css/main.2d82becb.css",
-    "main.js": "/archline/static/js/main.df7809f7.js",
+    "main.js": "/archline/static/js/main.0e0c8ead.js",
     "static/js/453.b4b18a18.chunk.js": "/archline/static/js/453.b4b18a18.chunk.js",
     "static/media/archLine.svg": "/archline/static/media/archLine.1e8270b1c9d41425a905c4285a392142.svg",
     "static/media/logo.svg": "/archline/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/archline/index.html",
     "main.2d82becb.css.map": "/archline/static/css/main.2d82becb.css.map",
-    "main.df7809f7.js.map": "/archline/static/js/main.df7809f7.js.map",
+    "main.0e0c8ead.js.map": "/archline/static/js/main.0e0c8ead.js.map",
     "453.b4b18a18.chunk.js.map": "/archline/static/js/453.b4b18a18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d82becb.css",
-    "static/js/main.df7809f7.js"
+    "static/js/main.0e0c8ead.js"
   ]
 }
