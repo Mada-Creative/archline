@@ -1,5 +1,14 @@
+:root {
+  --color-background: #FFFFFF;
+  --color-section-bg: #F5F5F5;
+  --color-text-primary: #333333;
+  --color-text-strong: #000000;
+  --color-primary: #3A5A80;
+  --color-secondary: #7FB3D5;
+  --main-font: 'Cairo', sans-serif;
+}
 .testimonials-section {
-    background-color: var(--color-section-bg);
+    background-color: var(--color-background);
     padding: 4rem 2rem;
     text-align: center;
     font-family: var(--main-font);
@@ -16,7 +25,7 @@
     background: white;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 12px rgba(0,0,0,0.1);
     width: 300px;
     text-align: center;
     transition: transform 0.3s ease;

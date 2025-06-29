@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./Skills.css";
+import model3d from ".././images/render3dmodel.png";
+import interior from ".././images/interior.jpg";
 
 export default function Services() {
   const [showMore, setShowMore] = useState(false);
@@ -37,7 +39,9 @@ export default function Services() {
             className="skill-visual left"
             data-aos="fade-right"
           >
-            <div className="model-container"></div>
+            <div className="model-container">
+              <img src={model3d} alt="3dmodel" />
+            </div>
           </div>
         </div>
 
@@ -49,7 +53,9 @@ export default function Services() {
               ולסגנון שלך.
             </p>
           </div>
-          <div className="model-container" data-aos="fade-right"></div>
+          <div className="model-container" data-aos="fade-right">
+            <img width={"100%"} src={interior} alt="interior" />
+          </div>
         </div>
       </section>
     </div>

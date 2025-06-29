@@ -18,7 +18,6 @@ export default function Contact() {
 
         {/* 📞 حقل رقم الهاتف مع قائمة للمقدمات */}
         <div className="phone-field">
-          <input type="text" name="phone" placeholder="מס׳ טלפון" required />
           <select name="prefix" required>
             <option value="">בחר קידומת</option>
             <option value="050">050</option>
@@ -28,6 +27,7 @@ export default function Contact() {
             <option value="055">055</option>
             <option value="058">058</option>
           </select>
+          <input type="text" name="phone" placeholder="מס׳ טלפון" required />
         </div>
 
         <textarea

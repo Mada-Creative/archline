@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/archline/static/css/main.2d82becb.css",
-    "main.js": "/archline/static/js/main.7b26bed8.js",
+    "main.css": "/archline/static/css/main.556e1d8a.css",
+    "main.js": "/archline/static/js/main.afed997f.js",
     "static/js/453.b4b18a18.chunk.js": "/archline/static/js/453.b4b18a18.chunk.js",
+    "static/media/interior.jpg": "/archline/static/media/interior.81b89bd2262c7373fcf3.jpg",
+    "static/media/render3dmodel.png": "/archline/static/media/render3dmodel.eb36b1c20d114f2a6856.png",
     "static/media/building.glb": "/archline/static/media/building.61c7ce23dad4bc66a8ac.glb",
     "static/media/archLine.svg": "/archline/static/media/archLine.1e8270b1c9d41425a905c4285a392142.svg",
     "static/media/logo.svg": "/archline/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/archline/index.html",
-    "main.2d82becb.css.map": "/archline/static/css/main.2d82becb.css.map",
-    "main.7b26bed8.js.map": "/archline/static/js/main.7b26bed8.js.map",
+    "main.556e1d8a.css.map": "/archline/static/css/main.556e1d8a.css.map",
+    "main.afed997f.js.map": "/archline/static/js/main.afed997f.js.map",
     "453.b4b18a18.chunk.js.map": "/archline/static/js/453.b4b18a18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d82becb.css",
-    "static/js/main.7b26bed8.js"
+    "static/css/main.556e1d8a.css",
+    "static/js/main.afed997f.js"
   ]
 }
