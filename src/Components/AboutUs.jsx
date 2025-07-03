@@ -16,7 +16,7 @@ export default function AboutUs() {
 
   useEffect(() => {
     let count = 0;
-    const target = 23; // 🔢 عدل العدد الحقيقي للعملاء
+    const target = 27; // 🔢 عدل العدد الحقيقي للعملاء
     const interval = setInterval(() => {
       count++;
       setClientCount(count);
@@ -32,7 +32,7 @@ export default function AboutUs() {
             קצת עליי
           </h2>
           <p data-aos="fade-up">
-            אני סאמר אבו מוח', אדריכל שמונע מתשוקה לעיצוב חללים שמרגשים ומשרתים
+            אני סאמר אבו מוך, אדריכל שמונע מתשוקה לעיצוב חללים שמרגשים ומשרתים
             אנשים. אני מאמין שכל פרויקט הוא איזון בין יופי לפונקציונליות, ושם לב
             לפרטים הקטנים ביותר כדי לממש את חזון הלקוח.
           </p>

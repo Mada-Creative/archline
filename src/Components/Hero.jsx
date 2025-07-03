@@ -18,9 +18,9 @@ export default function Hero() {
         <h1 className="hero-title" data-aos="fade-up">
           Archline
         </h1>
-        <h3 className="hero-subtitle" data-aos="fade-up">
+        {/* <h3 className="hero-subtitle" data-aos="fade-up">
           By Samer Abo Mokh
-        </h3>
+        </h3> */}
         <p className="hero-tagline" data-aos="fade-up">
           חושבים • מעצבים • מיישמים
         </p>
@@ -29,7 +29,7 @@ export default function Hero() {
         <ModelViewer />
         <a
           className="CTAButton"
-          href="https://wa.me/972525272910?text=שלום, אני מעוניין לקבוע פגישת ייעוץ חינמית."
+          href="https://wa.me/972547448028?text=שלום, אני מעוניין לקבוע פגישת ייעוץ חינמית."
           target="_blank"
           rel="noopener noreferrer"
         >

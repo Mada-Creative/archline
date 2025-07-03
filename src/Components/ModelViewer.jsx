@@ -22,7 +22,7 @@ export default function ModelViewer() {
         <OrbitControls
           enablePan={true}
           enableZoom={false}
-          enableRotate={true}
+          enableRotate={false}
         />
       </Canvas>
     </div>

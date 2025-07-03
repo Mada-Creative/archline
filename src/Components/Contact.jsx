@@ -9,7 +9,7 @@ export default function Contact() {
         מלא את פרטיך ונחזור אליך בהקדם האפשרי לפגישת ייעוץ חינמית.
       </p>
       <form
-        action="https://formsubmit.co/tareq.salame@gmail.com?redirect=http://localhost:3000/thankyou"
+        action="https://formsubmit.co/sabomokh599@gmail.com?redirect=http://localhost:3000/thankyou"
         method="POST"
         className="contact-form"
       >
